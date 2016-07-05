@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int n,i,fact=1;
+int n,num;
 scanf("%d",&n);
-if(n==0||n==1)
-printf("1");
-else
-for(i=1;i<=n;i++)
+while(n!=0)
 {
-fact=fact*n;
+num=num*10;
+num=num+num%10;
+n=n/10;
 }
-printf("%d",fact);
+printf("%d",num);
+
 return 0;}
