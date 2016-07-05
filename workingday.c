@@ -16,10 +16,10 @@ int workingday(char x)
 {
 int f;
 if(x=='SUNDAY"||X=="Sunday")
-f=1;
+f=0;
 
 else
-f=0;
+f=1;
 return f;
 }
 
