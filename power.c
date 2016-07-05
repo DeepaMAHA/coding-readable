@@ -16,7 +16,7 @@ int main()
         --exponent;
     }
 
-    printf("Answer = %lld", result);
+    printf("Answer = %d", result);
 
     return 0;
 }
